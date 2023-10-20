@@ -6,4 +6,10 @@ Git Add
 Adds new/modified files to the index and stages them to be committed using the git init command. MUST BE DONE BEFORE COMMIT.
 Git Commit
 Creates a new commit using the staged files within the index and a log message documenting the changes.
+Git Log
+Shows the logs within a commit, such as message logs included with a commit command (as shown below).
+Git Remote
+List and manage your set of tracked repositories, which are called “remotes” in this case.
+
+
 
