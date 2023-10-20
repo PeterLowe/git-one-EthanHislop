@@ -1,0 +1,9 @@
+Git Innit
+Creates a new repository within a folder (appears as hidden .git file when view hidden files is enabled).
+Git Status
+Displays the status of files within the folder, such as new files, modified files and files that are added/staged. New/modified files are displayed as red and added/staged files are shown as green.
+Git Add
+Adds new/modified files to the index and stages them to be committed using the git init command. MUST BE DONE BEFORE COMMIT.
+Git Commit
+Creates a new commit using the staged files within the index and a log message documenting the changes.
+
