@@ -8,8 +8,9 @@ Git Commit
 Creates a new commit using the staged files within the index and a log message documenting the changes.
 Git Log
 Shows the logs within a commit, such as message logs included with a commit command (as shown below).
-Git Remote
-List and manage your set of tracked repositories, which are called “remotes” in this case.
+Git Branch
+Creates a new branch within the current local repository. You can also use a command to list all the current branches within the current repository.
+
 
 
 
