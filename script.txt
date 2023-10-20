@@ -12,6 +12,9 @@ Git Branch
 Creates a new branch within the current local repository. You can also use a command to list all the current branches within the current repository.
 Git Remote
 Allows the creation of a remote repository within the current folder. Also allows you to list and delete these remote repositories if necessary.
+Git Push
+Uploads all local commits within the repository/branch to the matching remote repository/branch.
+
 
 
 
