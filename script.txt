@@ -1,19 +1,52 @@
-Git Innit
+Git Init
 Creates a new repository within a folder (appears as hidden .git file when view hidden files is enabled).
+Syntax:
+git innit (Creates a new local repository within the current folder)
+
 Git Status
 Displays the status of files within the folder, such as new files, modified files and files that are added/staged. New/modified files are displayed as red and added/staged files are shown as green.
+Syntax:
+git status (Lists all modified, added and current files)
+
 Git Add
 Adds new/modified files to the index and stages them to be committed using the git init command. MUST BE DONE BEFORE COMMIT.
+Syntax:
+git add <file name/.> (Adds the selected file or all files to be staged for commit)
+
 Git Commit
 Creates a new commit using the staged files within the index and a log message documenting the changes.
+Syntax:
+git commit (Enters editor mode/multiline comment)
+
 Git Log
 Shows the logs within a commit, such as message logs included with a commit command (as shown below).
+Syntax:
+git log (Display the entire commit history) [<space> for more and <q> to exit]
+git log -stat (Shows the altered files and line changed)
+git log -graph (Draws up branch paths)
+
 Git Branch
 Creates a new branch within the current local repository. You can also use a command to list all the current branches within the current repository.
+Syntax:
+git branch <name> (Creates a new branch in the current local repository)
+git branch -a/-l/-r (Lists all branches within the repository)
+
 Git Remote
 Allows the creation of a remote repository within the current folder. Also allows you to list and delete these remote repositories if necessary.
+Syntax:
+git remote add <name> <url> (Creates a new remote repository)
+git remote -v (Lists all repositories on remote server)
+git remote rm <name> (Delete an existing remote repository)
+
 Git Push
 Uploads all local commits within the repository/branch to the matching remote repository/branch.
+Syntax:
+git push <remote> <branch> (Pushes the given remote and branch commit up to GitHub)
+
+Git Clone
+Clones an existing repository (usually a remote one) into a new directory (perhaps on another file system or computer).
+Syntax:
+git clone <url> (Clones the remote repository within the indicated url)
 
 
 
