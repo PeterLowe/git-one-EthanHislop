@@ -69,4 +69,8 @@ Syntax:
 git stash (Stashes away an un-staged or staged, but not committed, work to be reapplied later)
 git stash pop (Removes the stash changes and applies them to your working directory)
 
-
+Git RM
+This can be used remove one or multiple files from a directory, mainly tracked ones from the index, staging index and the local working repository. This applies to all of these and can’t be used for only one.
+Syntax:
+git rm <file name> (Removes file from repository)
+git rm -f <file name> (Removes file from repository by force, disregarding errors)
