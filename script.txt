@@ -1,7 +1,7 @@
 Git Init
 Creates a new repository within a folder (appears as hidden .git file when view hidden files is enabled).
 Syntax:
-git innit (Creates a new local repository within the current folder)
+git init (Creates a new local repository within the current folder)
 
 Git Status
 Displays the status of files within the folder, such as new files, modified files and files that are added/staged. New/modified files are displayed as red and added/staged files are shown as green.
@@ -47,6 +47,12 @@ Git Clone
 Clones an existing repository (usually a remote one) into a new directory (perhaps on another file system or computer).
 Syntax:
 git clone <url> (Clones the remote repository within the indicated url)
+
+Git Checkout
+Allows the switching between different branches within a repository or, more accurately, makes the branch/node the current head. As shown in the screenshot below the head is assigned to main so no change is needed to be made (there are no other branches within this repository).
+Syntax:
+git checkout <branch_name> (Makes this node the current head)
+
 
 
 
