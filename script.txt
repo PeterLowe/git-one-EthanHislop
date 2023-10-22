@@ -53,9 +53,9 @@ Allows the switching between different branches within a repository or, more acc
 Syntax:
 git checkout <branch_name> (Makes this node the current head)
 
-
-
-
-
+Git Merge
+Allows the current assigned head/branch of the repository to be merged with the main/master branch. Useful for combining two different branches, which is what this command is most used for. The below screenshot shows that everything is up to date (as there is only one branch in this repository, which is main/master).
+Syntax:
+git merge master/main (Merge the current head with main/master branch, git auto applies changes)
 
 
