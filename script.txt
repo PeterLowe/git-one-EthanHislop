@@ -1,5 +1,5 @@
 Git Init
-Creates a new repository within a folder (appears as hidden .git file when view hidden files is enabled).
+Creates a new repository within a folder (appears as hidden .git file when view hidden files is enabled). This allows you to continue with other commands.
 Syntax:
 git init (Creates a new local repository within the current folder)
 
@@ -9,12 +9,12 @@ Syntax:
 git status (Lists all modified, added and current files)
 
 Git Add
-Adds new/modified files to the index and stages them to be committed using the git init command. MUST BE DONE BEFORE COMMIT.
+Adds new/modified files to the index and stages them to be committed using the git init command. It is advisable to do another git status command to confirm that the git add was successful. MUST BE DONE BEFORE COMMIT.
 Syntax:
 git add <file name/.> (Adds the selected file or all files to be staged for commit)
 
 Git Commit
-Creates a new commit using the staged files within the index and a log message documenting the changes.
+Creates a new commit using the staged files within the index and a log message documenting the changes. This commit will be able to be seen on GitHub when git remote is used later.
 Syntax:
 git commit (Enters editor mode/multiline comment)
 
@@ -26,13 +26,13 @@ git log -stat (Shows the altered files and line changed)
 git log -graph (Draws up branch paths)
 
 Git Branch
-Creates a new branch within the current local repository. You can also use a command to list all the current branches within the current repository.
+Creates a new branch within the current local repository. You can also use a command to list all the current branches within the current repository. The default branch is called either master or main, below it is remained from master to main.
 Syntax:
 git branch <name> (Creates a new branch in the current local repository)
 git branch -a/-l/-r (Lists all branches within the repository)
 
 Git Remote
-Allows the creation of a remote repository within the current folder. Also allows you to list and delete these remote repositories if necessary.
+Allows the creation of a remote repository within the current folder. Also allows you to list and delete these remote repositories if necessary. This will allow you to view your work and commits up on GitHub when they are pushed with the git push command (see next command).
 Syntax:
 git remote add <name> <url> (Creates a new remote repository)
 git remote -v (Lists all repositories on remote server)
