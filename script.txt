@@ -63,4 +63,10 @@ This command performs a fetch and merge command at the same time. It will first 
 Syntax:
 git pull <remote> (Perform a fetch and a merge)
 
+Git Stash
+Shelves changes made to the current working directory so another thing can be worked on, allowing you to come back and reapply these changes later. CAN ONLY BE DONE BEFORE COMMIT NOT AFTER 
+Syntax:
+git stash (Stashes away an un-staged or staged, but not committed, work to be reapplied later)
+git stash pop (Removes the stash changes and applies them to your working directory)
+
 
