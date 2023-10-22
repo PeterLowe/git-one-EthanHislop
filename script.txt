@@ -58,4 +58,9 @@ Allows the current assigned head/branch of the repository to be merged with the 
 Syntax:
 git merge master/main (Merge the current head with main/master branch, git auto applies changes)
 
+Git Pull
+This command performs a fetch and merge command at the same time. It will first fetch files from the remote repository then it will merge them with the current head/branch. As shown below, no changes were made in this case as the local repository and the remote repository are both the same and up to date.
+Syntax:
+git pull <remote> (Perform a fetch and a merge)
+
 
